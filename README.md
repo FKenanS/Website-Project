@@ -46,6 +46,7 @@ All pages are connected with a consistent navigation bar and layout.
 
 ## 📂 **Project Structure**
 
+<pre>
 /Project Root
 │── index.html
 │── about.html
@@ -53,12 +54,12 @@ All pages are connected with a consistent navigation bar and layout.
 │── contact.html
 │
 ├── /assets
-│ ├── /images
-│ └── /icons
+│   ├── /images
+│   └── /icons
 │
 └── /css
-└── style.css
-
+    └── style.css
+</pre>
 
 ---
 
