@@ -1,0 +1,565 @@
+[
+  {
+    "id": 1,
+    "title": "AI Coding Training Program",
+    "description": "Learn Python, programming fundamentals, and build beginner AI models.",
+    "image": "assets/img/ai-coding.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Objectives:</strong><ul>\n                <li>Understand variables, data types, and basic operators.</li>\n                <li>Learn control structures (if-else, loops).</li>\n                <li>Practice with simple Python programs.</li>\n                </ul>\n                <strong>Activities:</strong><ul>\n                <li>Interactive coding exercises.</li>\n                <li>Mini projects: Calculator, number guessing game.</li>\n                </ul>\n                <strong>Tools:</strong><ul>\n                <li>Google Colab or Jupyter Notebook</li>\n                </ul>"
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Objectives:</strong><ul>\n                <li>Learn about functions, lists, dictionaries, and tuples.</li>\n                <li>Use Python libraries like math, random, and datetime.</li>\n                </ul>\n                <strong>Activities:</strong><ul>\n                <li>Build a to-do list app.</li>\n                <li>Practice creating and calling functions.</li>\n                </ul>\n                <strong>Tools:</strong><ul>\n                <li>Python standard libraries</li>\n                </ul>"
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Objectives:</strong><ul>\n                <li>Understand what AI and ML are.</li>\n                <li>Learn types of ML: supervised, unsupervised, reinforcement learning.</li>\n                <li>Introduction to data, features, and labels.</li>\n                </ul>\n                <strong>Activities:</strong><ul>\n                <li>Class discussion on AI in daily life.</li>\n                <li>Basic ML demo using Scikit-learn (e.g., Iris dataset classification).</li>\n                </ul>\n                <strong>Tools:</strong><ul>\n                <li>Python, Scikit-learn, Pandas, Matplotlib</li>\n                </ul>"
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Objectives:</strong><ul>\n                <li>Learn about model training and evaluation.</li>\n                <li>Build and test a classification model using Scikit-learn.</li>\n                <li>Understand accuracy, precision, and confusion matrix.</li>\n                </ul>\n                <strong>Activities:</strong><ul>\n                <li>Hands-on: Train a model to classify handwritten digits (using sklearn.datasets.load_digits).</li>\n                <li>Visualizing results with plots.</li>\n                </ul>\n                <strong>Tools:</strong><ul>\n                <li>Python, Scikit-learn, Jupyter Notebook</li>\n                </ul>"
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Objectives:</strong><ul>\n                <li>Understand the basics of neural networks.</li>\n                <li>Build a simple neural network using TensorFlow/Keras.</li>\n                <li>Discuss AI ethics and responsible AI use.</li>\n                </ul>\n                <strong>Activities:</strong><ul>\n                <li>Train a simple neural net on MNIST dataset.</li>\n                <li>Group discussion or case study on AI and bias.</li>\n                </ul>\n                <strong>Tools:</strong><ul>\n                <li>Python, TensorFlow/Keras</li>\n                </ul>"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Artificial Intelligence for Productivity",
+    "description": "Use AI tools to enhance personal and professional productivity and automate workflows.",
+    "image": "assets/img/ai-productivity.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "Introduction to AI and Productivity: Basics of AI, productivity tools, and identifying inefficiencies."
+      },
+      {
+        "day": "Day 2",
+        "content": "AI for Task and Time Management: Smart calendars, automation tools, and time blocking."
+      },
+      {
+        "day": "Day 3",
+        "content": "AI for Communication and Content: Writing tools, meeting AIs, and visual AI tools like Canva AI."
+      },
+      {
+        "day": "Day 4",
+        "content": "Data-Driven Productivity: AI in spreadsheets and dashboards with tools like Power BI and Excel Copilot."
+      },
+      {
+        "day": "Day 5",
+        "content": "Building AI Workflows & Future Skills: Create personal workflows and discuss AI ethics and future skills."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Artificial Intelligence in Marketing and Branding",
+    "description": "Apply AI in marketing strategies, content creation, SEO, and branding.",
+    "image": "assets/img/ai-marketing.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "AI in Marketing & Branding: ML, NLP in marketing, ethics and customer behavior."
+      },
+      {
+        "day": "Day 2",
+        "content": "Consumer Insights & Personalization: Segmentation, sentiment analysis, and personalized strategies."
+      },
+      {
+        "day": "Day 3",
+        "content": "Content Marketing and Branding: AI-generated content, visual creation, and brand persona building."
+      },
+      {
+        "day": "Day 4",
+        "content": "Advertising, SEO & Campaign Optimization: AI in ad platforms, SEO, and campaign tracking."
+      },
+      {
+        "day": "Day 5",
+        "content": "AI-Powered Brand Strategy: Strategic planning, reputation management, and trend forecasting."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Artificial Intelligence Writing Tools - Training Program",
+    "description": "Learn to use AI tools for writing, editing, SEO, and content creation while maintaining ethical standards.",
+    "image": "assets/img/ai-writing.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Objective:</strong> Understand the basics of AI and its role in the writing process.<br><strong>Topics Covered:</strong><ul><li>What is AI? A brief overview</li><li>How AI is transforming the writing industry</li><li>Types of AI writing tools (generative, assistive, editing, summarization)</li><li>Ethical concerns and limitations</li></ul><strong>Activities:</strong><ul><li>Group discussion: “Can AI replace human writers?”</li><li>Quick demo: ChatGPT, Grammarly, and Quillbot</li></ul><strong>Assignment:</strong><ul><li>Write a short piece (150–200 words) manually and compare it with an AI-generated version.</li></ul>"
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Objective:</strong> Gain hands-on experience with leading AI writing tools.<br><strong>Topics Covered:</strong><ul><li>Deep dive into ChatGPT, Jasper, Writesonic, Copy.ai, Grammarly, Quillbot</li><li>Tool comparison: strengths and weaknesses</li><li>Free vs paid versions – what do you really need?</li></ul><strong>Activities:</strong><ul><li>Guided exploration of at least three tools</li><li>Case study: Using AI for marketing content</li></ul><strong>Assignment:</strong><ul><li>Create a blog post outline using three different tools and compare the results.</li></ul>"
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Objective:</strong> Learn to co-write and edit content effectively using AI.<br><strong>Topics Covered:</strong><ul><li>Prompt engineering basics</li><li>Co-writing techniques with AI</li><li>Editing and enhancing content using AI</li><li>Avoiding overreliance and plagiarism</li></ul><strong>Activities:</strong><ul><li>Live demo: Writing a blog post with ChatGPT</li><li>AI-assisted headline generation exercise</li></ul><strong>Assignment:</strong><ul><li>Co-write a 500-word article using AI and polish it with Grammarly or Hemingway Editor.</li></ul>"
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Objective:</strong> Apply AI tools for specific writing needs.<br><strong>Topics Covered:</strong><ul><li>AI for academic writing (summarizing, citation help)</li><li>AI for social media content</li><li>AI for SEO and keyword optimization</li><li>Translation and paraphrasing tools</li></ul><strong>Activities:</strong><ul><li>SEO optimization challenge using AI</li><li>Create a week’s worth of AI-generated social media posts</li></ul><strong>Assignment:</strong><ul><li>Use an AI tool to generate and optimize a product description or academic abstract.</li></ul>"
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Objective:</strong> Learn how to sustainably integrate AI tools into your workflow.<br><strong>Topics Covered:</strong><ul><li>Building your AI writing toolkit</li><li>Workflow integration (Notion, Google Docs, CMS platforms)</li><li>Ethical writing with AI: Transparency, authorship, and data privacy</li><li>The future of AI in creative and professional writing</li></ul><strong>Activities:</strong><ul><li>Panel or guest talk (if available): AI + Creativity</li><li>Create your AI writing workflow diagram</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "How to Build a Very Basic Web Page",
+    "description": "Learn how to create, style, and publish your first web page using HTML and CSS.",
+    "image": "assets/img/web-basics.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Topics:</strong><ul><li>What is a website? What is a web page?</li><li>Introduction to HTML</li><li>Basic structure of an HTML document (&lt;html&gt;, &lt;head&gt;, &lt;body&gt;)</li><li>Common HTML tags: &lt;h1&gt;–&lt;h6&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;br&gt;, &lt;hr&gt;</li></ul><strong>Activities:</strong><ul><li>Write your first “Hello, World!” page</li><li>Add headings and paragraphs</li><li>Insert an image and a hyperlink</li></ul><strong>Outcome:</strong> Create a simple HTML page with text, an image, and a working link."
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Topics:</strong><ul><li>Using &lt;div&gt; and semantic tags (&lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;footer&gt;)</li><li>Inserting images with alt text</li><li>Lists and links (internal and external)</li><li>File and folder structure for web projects</li></ul><strong>Activities:</strong><ul><li>Create a simple web page layout using divs</li><li>Add navigation links to different sections of the same page</li></ul><strong>Outcome:</strong> Build a basic, well-structured HTML layout for a webpage."
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Topics:</strong><ul><li>What is CSS and how it works with HTML</li><li>Inline, internal, and external CSS</li><li>Basic CSS properties: color, background, font, border, margin, padding</li></ul><strong>Activities:</strong><ul><li>Add internal CSS to style headings, text, and background</li><li>Experiment with fonts and colors</li></ul><strong>Outcome:</strong> Style a basic webpage using internal CSS."
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Topics:</strong><ul><li>Box model (margin, border, padding, content)</li><li>CSS display properties</li><li>Aligning elements using flexbox (introduction)</li><li>Responsive basics (viewport tag, relative units)</li></ul><strong>Activities:</strong><ul><li>Create a simple layout using flexbox or float</li><li>Adjust layout spacing with the box model</li></ul><strong>Outcome:</strong> Build a simple, styled layout with organized content."
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Topics:</strong><ul><li>Review of HTML and CSS learned so far</li><li>Building a final mini-project (personal webpage or portfolio)</li><li>Introduction to publishing with GitHub Pages (or alternatives)</li></ul><strong>Activities:</strong><ul><li>Build your personal webpage with sections: About Me, Hobbies, Contact</li><li>Upload to GitHub and publish it online</li></ul><strong>Outcome:</strong> Complete and publish your very first live webpage."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Circular Economy Fundamentals – Theoretical Foundations and Local Perspectives",
+    "description": "Explore the theoretical models and local strategies for implementing circular economy practices in real-world settings.",
+    "image": "assets/img/circular-economy.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Theme:</strong> From Linear to Circular – Why Change is Needed<br><strong>Objectives:</strong><ul><li>Understand environmental, economic, and social motivations for the circular economy.</li><li>Explore the historical evolution and basic concepts of the circular economy.</li></ul><strong>Topics:</strong><ul><li>Linear vs Circular Economy</li><li>Systems thinking and sustainability</li><li>Circular economy benefits and drivers</li><li>Key global frameworks (e.g., Ellen MacArthur Foundation, UN SDGs)</li></ul><strong>Activities:</strong><ul><li>Group discussion: “Where are we now?”</li><li>Interactive mapping: “Waste in our daily lives”</li><li>Video case study: “Story of Stuff”</li></ul>"
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Theme:</strong> Building Blocks of Circularity<br><strong>Objectives:</strong><ul><li>Examine theoretical underpinnings and models of circular economy.</li><li>Introduce design thinking and life cycle approaches.</li></ul><strong>Topics:</strong><ul><li>Cradle-to-Cradle, Performance Economy, Industrial Symbiosis</li><li>9R Framework (Refuse, Rethink, Reduce…)</li><li>Biomimicry and regenerative design</li><li>Circular business models (Product-as-a-Service, Sharing economy)</li></ul><strong>Activities:</strong><ul><li>Workshop: Redesigning a common product using circular principles</li><li>Guest speaker: Circular economy researcher or practitioner</li></ul>"
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Theme:</strong> Enabling Circular Economies through Governance<br><strong>Objectives:</strong><ul><li>Analyze international and national policies supporting circularity.</li><li>Understand the role of regulations, incentives, and measurement tools.</li></ul><strong>Topics:</strong><ul><li>EU Circular Economy Action Plan</li><li>ISO standards (e.g., ISO 59004, 14040)</li><li>National/local policy landscapes</li><li>Circular economy metrics and indicators</li></ul><strong>Activities:</strong><ul><li>Policy mapping activity</li><li>Debate: “Should circularity be mandated or incentivized?”</li></ul>"
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Theme:</strong> Circular Economy in Practice – Local Realities<br><strong>Objectives:</strong><ul><li>Explore how circular economy can be implemented in local contexts.</li><li>Identify community-based innovations and grassroots movements.</li></ul><strong>Topics:</strong><ul><li>Urban circularity (waste, energy, mobility)</li><li>Rural/regional perspectives</li><li>Local circular business initiatives</li><li>Social dimensions and stakeholder engagement</li></ul><strong>Activities:</strong><ul><li>Field visit or virtual tour of a local circular initiative</li><li>Group task: Circular mapping of participants’ own city/town</li><li>Panel discussion: Local entrepreneurs, NGOs, policy makers</li></ul>"
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Theme:</strong> Designing the Circular Transition<br><strong>Objectives:</strong><ul><li>Synthesize learnings to co-create localized circular economy strategies.</li><li>Develop action plans for implementation in participants’ sectors or regions.</li></ul><strong>Topics:</strong><ul><li>Circular transition strategies</li><li>Tools for change management</li><li>Communication and behavior change</li></ul><strong>Activities:</strong><ul><li>Co-creation lab: Develop a local circular economy roadmap</li><li>Group presentations</li><li>Feedback and reflection session</li><li>Certificates and closing ceremony</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Creative Applications of Artificial Intelligence",
+    "description": "Discover how AI is transforming creativity across visual arts, music, writing, and storytelling—and build your own AI-powered creative project.",
+    "image": "assets/img/creative-ai.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Theme:</strong> Understanding Creativity + AI Capabilities<br><strong>Topics:</strong><ul><li>What is creativity? Can AI be creative?</li><li>Overview of creative AI applications</li><li>Introduction to generative AI (GPT, DALL·E, Midjourney, etc.)</li><li>Live demo: Creating stories and poems with AI</li></ul><strong>Hands-on:</strong><ul><li>Use ChatGPT or similar tools to generate short creative content (e.g., poems, jokes, dialogue scenes)</li></ul><strong>Outcome:</strong> Participants recognize AI's role in augmenting human creativity and start experimenting with prompts."
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Theme:</strong> Exploring AI-Generated Images, Design & Style Transfer<br><strong>Topics:</strong><ul><li>How AI generates images (GANs, diffusion models)</li><li>Applications in fashion, product design, and marketing</li><li>Style transfer and image-to-image translation</li><li>Tools: DALL·E, Runway ML, DeepArt, Midjourney</li></ul><strong>Hands-on:</strong><ul><li>Create AI-generated artwork and posters using image generation tools</li><li>Try AI-assisted design with Canva and other tools</li></ul><strong>Outcome:</strong> Participants produce visual art using AI and understand its design applications."
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Theme:</strong> Audio Generation and Music Composition<br><strong>Topics:</strong><ul><li>How AI composes music (RNNs, Transformers for music)</li><li>Tools: AIVA, Amper, Soundraw, Google's Magenta</li><li>Real-world use: AI in film scoring, advertising, and video games</li></ul><strong>Hands-on:</strong><ul><li>Compose a short soundtrack using AI tools</li><li>Experiment with voice cloning and text-to-speech</li></ul><strong>Outcome:</strong> Participants create AI-generated music and understand the creative workflow."
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Theme:</strong> Narrative Creation, Games, and Interactivity<br><strong>Topics:</strong><ul><li>Natural Language Generation (NLG) for storytelling</li><li>AI in game design and interactive narratives</li><li>Chatbots as characters in games or experiences</li></ul><strong>Hands-on:</strong><ul><li>Write a short story or interactive fiction with GPT</li><li>Prototype a simple AI-driven text-based game or chatbot</li></ul><strong>Outcome:</strong> Participants explore how AI can enhance narrative design and interactivity."
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Theme:</strong> Bringing It All Together + Critical Reflection<br><strong>Topics:</strong><ul><li>Final project development (individually or in small groups)</li><li>Presentations and feedback</li><li>Ethical concerns: authenticity, authorship, bias, and impact on creative jobs</li><li>Future trends in creative AI</li></ul><strong>Hands-on:</strong><ul><li>Develop a creative AI project (e.g., AI comic strip, music video, digital poem)</li><li>Peer review and idea sharing</li></ul><strong>Outcome:</strong> Participants present a small creative AI concept or prototype and engage in reflective discussion."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Digital Storytelling for Active Citizenship",
+    "description": "Empower communities and drive change through multimedia storytelling focused on civic engagement, ethics, and social impact.",
+    "image": "assets/img/digital-storytelling.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Morning Session:</strong><ul><li>Introduction to Active Citizenship: Definition and significance</li><li>Case studies of digital storytelling for civic engagement</li><li>What is digital storytelling?</li><li>Types of digital stories: narrative, advocacy, documentary</li></ul><strong>Afternoon Session:</strong><ul><li>Overview of tools (e.g., Canva, Adobe Spark, iMovie, Audacity)</li><li>Hands-on activity: create a basic digital intro using text and images</li><li>Discussion & Reflection: How digital stories shape perspectives and promote change</li></ul>"
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Morning Session:</strong><ul><li>Community mapping and issue selection</li><li>Group brainstorming on relevant social topics</li><li>Story structure basics and creating a storyboard</li></ul><strong>Afternoon Session:</strong><ul><li>Writing scripts, collecting media (photos, sounds, videos)</li><li>Peer feedback on storyboards and drafts</li></ul>"
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Morning Session:</strong><ul><li>Intro to video/audio/image editing tools</li><li>Multimedia integration tips</li><li>Tips for mobile recording, lighting, and sound</li></ul><strong>Afternoon Session:</strong><ul><li>Basic editing techniques: transitions, pacing, subtitles</li><li>Start assembling the draft story</li></ul>"
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Morning Session:</strong><ul><li>Ethics in Digital Storytelling: Consent, privacy, representation</li><li>Avoiding harm and bias in storytelling</li><li>Digital Citizenship: Being responsible online and using platforms for civic engagement</li></ul><strong>Afternoon Session:</strong><ul><li>Story presentations and group critiques</li><li>Aligning stories with citizenship goals</li></ul>"
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Morning Session:</strong><ul><li>Polishing edits, adding effects, subtitles</li><li>Creating a compelling title and summary</li><li>How to publish and promote on social media</li><li>Using hashtags and building audience engagement</li></ul><strong>Afternoon Session:</strong><ul><li>Final screening of digital stories</li><li>Group reflection and takeaways</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Digital Pedagogy and Innovation - 5-Day Training Program",
+    "description": "Explore how to design, implement, assess, and innovate with digital tools and pedagogical strategies in modern education.",
+    "image": "assets/img/digital-pedagogy.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Morning Session:</strong><ul><li>What is digital pedagogy?</li><li>The evolution of education with technology</li><li>Key principles and models of digital pedagogy</li><li>How technology impacts teaching and learning</li><li>Understanding the digital divide and ensuring equity in digital education</li></ul><strong>Afternoon Session:</strong><ul><li>Current trends in digital learning and innovation</li><li>The role of multimedia, gamification, and interactive technologies in pedagogy</li><li>Case studies: Successful examples of digital pedagogy in practice</li></ul>"
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Morning Session:</strong><ul><li>Understanding the basics of instructional design</li><li>Strategies for creating engaging and interactive learning environments</li><li>Overview of digital tools and platforms for content delivery</li><li>Tools for multimedia creation, collaboration, and communication</li></ul><strong>Afternoon Session:</strong><ul><li>Hands-on: Designing a digital lesson using appropriate tools</li><li>Group activity: Creating a collaborative online learning activity</li></ul>"
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Morning Session:</strong><ul><li>What is active learning, and why is it important?</li><li>Facilitating active learning in digital and blended environments</li><li>Introduction to collaborative tools</li><li>Using virtual classrooms for engagement and peer interaction</li></ul><strong>Afternoon Session:</strong><ul><li>Hands-on: Using H5P, Nearpod, and Kahoot to create interactive lessons</li><li>Strategies for encouraging participation and collaboration online</li></ul>"
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Morning Session:</strong><ul><li>Formative and summative assessments in digital environments</li><li>Exploring digital assessment tools and platforms</li><li>Best practices for online testing and assignments</li><li>Ensuring academic integrity in digital assessments</li></ul><strong>Afternoon Session:</strong><ul><li>Providing constructive feedback digitally</li><li>Evaluating the effectiveness of digital learning tools and resources</li></ul>"
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Morning Session:</strong><ul><li>Exploring AI, VR, AR, and emerging tech in education</li><li>Integrating these technologies into teaching</li><li>Innovative pedagogical models and case studies</li><li>Discussion on future trends in digital education</li></ul><strong>Afternoon Session:</strong><ul><li>Create a personalized digital pedagogy plan</li><li>Group discussion and peer feedback</li><li>Final Q&A and feedback session</li><li>Awarding certificates of completion</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Digital Tools for Creative and Secure Education",
+    "description": "Learn to design engaging, multimedia-rich lessons while maintaining a safe digital environment for learners and educators.",
+    "image": "assets/img/secure-creative-tools.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Theme:</strong> Exploring creativity in a digital classroom<br><strong>Learning Outcomes:</strong><ul><li>Understand the role of digital tools in fostering creativity</li><li>Identify types of tools that support creative teaching and learning</li></ul><strong>Topics:</strong><ul><li>Overview of creative pedagogy in the digital age</li><li>Introduction to tools like Canva, Padlet, Genially, and Jamboard</li><li>Brainstorming activity: \"What does a creative classroom look like?\"</li></ul><strong>Activities:</strong><ul><li>Hands-on with Canva: create an interactive class poster</li><li>Group discussion and reflection</li></ul>"
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Theme:</strong> Engaging students with multimedia<br><strong>Learning Outcomes:</strong><ul><li>Create interactive lessons using digital platforms</li><li>Integrate multimedia into educational content effectively</li></ul><strong>Topics:</strong><ul><li>Tools for video creation (Loom, Flip, Adobe Express)</li><li>Interactive presentations with Genially and Nearpod</li><li>Audio tools (Vocaroo, Audacity basics)</li></ul><strong>Activities:</strong><ul><li>Create a short interactive lesson with multimedia tools</li><li>Peer review of created content</li></ul>"
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Theme:</strong> Fostering collaboration in digital environments<br><strong>Learning Outcomes:</strong><ul><li>Utilize collaborative platforms to enhance student engagement</li><li>Facilitate teamwork and communication with digital tools</li></ul><strong>Topics:</strong><ul><li>Google Workspace for Education (Docs, Slides, Forms, Jamboard)</li><li>Microsoft Teams / OneNote in education</li><li>Real-time feedback and student participation tools (Kahoot, Mentimeter)</li></ul><strong>Activities:</strong><ul><li>Group project using Google Slides and Forms</li><li>Simulate a virtual collaborative classroom scenario</li></ul>"
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Theme:</strong> Protecting learners and educators online<br><strong>Learning Outcomes:</strong><ul><li>Understand basic cybersecurity principles relevant to education</li><li>Apply best practices to maintain digital safety</li></ul><strong>Topics:</strong><ul><li>Password hygiene, phishing awareness, privacy settings</li><li>Secure communication and data storage</li><li>Safe browsing and digital footprint</li></ul><strong>Activities:</strong><ul><li>Cybersecurity quiz and threat simulations</li><li>Discussion: \"What does digital safety mean for students?\"</li></ul>"
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Theme:</strong> Putting it all together<br><strong>Learning Outcomes:</strong><ul><li>Design a lesson plan integrating secure and creative digital tools</li><li>Reflect on the impact of digital tools in personal teaching practice</li></ul><strong>Topics:</strong><ul><li>Lesson planning with integrated tools</li><li>Evaluation criteria for choosing safe and creative tools</li><li>Resources for ongoing professional development</li></ul><strong>Activities:</strong><ul><li>Create and present a lesson plan or mini-project</li><li>Peer feedback and group reflection</li><li>Certificate distribution & Q&A</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Digital Transformation in Inclusive Classrooms",
+    "description": "Learn to design equitable and accessible digital learning experiences that meet the needs of all students in diverse and inclusive classrooms.",
+    "image": "assets/img/inclusive-classrooms.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Learning Objectives:</strong><ul><li>Define inclusive education and its importance</li><li>Understand the concept of digital transformation in education</li><li>Explore global trends and frameworks (e.g., UDL - Universal Design for Learning)</li></ul><strong>Activities:</strong><ul><li>Icebreaker: Diversity Bingo</li><li>Keynote: 'Why Digital Inclusion Matters'</li><li>Group Discussion: Barriers to inclusion in current classrooms</li><li>Interactive Presentation: UDL principles and digital education</li></ul>"
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Learning Objectives:</strong><ul><li>Explore various assistive technologies (AT) for students with disabilities</li><li>Evaluate digital tools for visual, auditory, cognitive, and mobility support</li><li>Understand how to make digital content accessible (WCAG guidelines)</li></ul><strong>Activities:</strong><ul><li>Demo: Screen readers, text-to-speech tools, and captioning</li><li>Hands-on Workshop: Creating accessible documents and presentations</li><li>Case Study: Successful use of AT in inclusive classrooms</li></ul>"
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Learning Objectives:</strong><ul><li>Use digital platforms (e.g., Google Classroom, Microsoft Teams) to support diverse learners</li><li>Design interactive and engaging inclusive lessons</li><li>Differentiate instruction using technology</li></ul><strong>Activities:</strong><ul><li>Group Activity: Redesign a traditional lesson into an inclusive digital format</li><li>Tool Exploration: Edpuzzle, Flip, Canva for Education</li><li>Peer Review: Share and critique lesson plans</li></ul>"
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Learning Objectives:</strong><ul><li>Understand cultural responsiveness in digital education</li><li>Promote equity through technology in multilingual and diverse classrooms</li><li>Address the digital divide and promote digital citizenship</li></ul><strong>Activities:</strong><ul><li>Panel Talk: Voices from diverse classrooms</li><li>Activity: Inclusive storytelling using digital tools</li><li>Reflection Exercise: Assessing biases in digital content</li></ul>"
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Learning Objectives:</strong><ul><li>Develop a personalized action plan for digital inclusion</li><li>Identify key stakeholders and resources</li><li>Evaluate and reflect on professional growth</li></ul><strong>Activities:</strong><ul><li>Group Presentations: Action plans for digital inclusion</li><li>Feedback Session: Peer and facilitator review</li><li>Wrap-up: Certification & digital badge ceremony</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Empowering Teachers with STEM and Coding Skills",
+    "description": "Equip teachers with the skills and tools to integrate STEM and beginner-friendly coding into their teaching practice.",
+    "image": "assets/img/stem-coding.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Objective:</strong> Build awareness of STEM and its relevance in modern education.<br><strong>Topics:</strong><ul><li>What is STEM? Why is it important?</li><li>The role of teachers in STEM advocacy</li><li>Real-world examples and case studies</li><li>Introduction to 21st-century skills (collaboration, critical thinking, creativity, communication)</li></ul><strong>Activities:</strong><ul><li>Icebreaker: STEM Around You</li><li>Group discussion: Challenges and opportunities in current classrooms</li><li>STEM scavenger hunt (virtual or physical)</li></ul><strong>Outcomes:</strong><ul><li>Understand the value of STEM</li><li>Identify current STEM applications in daily life and curriculum</li></ul>"
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Objective:</strong> Equip teachers with tools to integrate STEM across subjects.<br><strong>Topics:</strong><ul><li>STEM instructional strategies</li><li>Inquiry-based and project-based learning</li><li>Cross-disciplinary lesson planning</li><li>Aligning with curriculum standards</li></ul><strong>Activities:</strong><ul><li>Design a mini cross-curricular STEM activity</li><li>Case study analysis</li><li>Group brainstorming: “STEMifying” your subject</li></ul><strong>Outcomes:</strong><ul><li>Develop strategies for cross-curricular STEM learning</li><li>Create a draft of a subject-specific STEM lesson</li></ul>"
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Objective:</strong> Introduce basic coding concepts using beginner-friendly platforms.<br><strong>Topics:</strong><ul><li>What is coding and computational thinking?</li><li>Block-based programming with Scratch</li><li>Introduction to logic: sequences, loops, conditionals</li><li>Classroom-friendly platforms (Scratch, Tynker, Code.org)</li></ul><strong>Activities:</strong><ul><li>Hands-on Scratch workshop (create a simple animation or quiz)</li><li>Pair programming</li><li>Reflective journaling: How can I use this in my classroom?</li></ul><strong>Outcomes:</strong><ul><li>Understand basic coding concepts</li><li>Build and modify a simple Scratch project</li></ul>"
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Objective:</strong> Use coding to enhance STEM education through real projects.<br><strong>Topics:</strong><ul><li>Connecting coding to science and math</li><li>Intro to micro:bit (or similar hardware, optional)</li><li>STEM and coding project design</li></ul><strong>Activities:</strong><ul><li>Choose and build a STEM + coding mini project (e.g., a weather station, quiz app, interactive story)</li><li>Gallery walk and peer feedback</li><li>Troubleshooting and debugging session</li></ul><strong>Outcomes:</strong><ul><li>Build an integrated STEM-coding project</li><li>Gain confidence in troubleshooting and facilitating coding activities</li></ul>"
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Objective:</strong> Plan how to implement STEM and coding in the classroom sustainably.<br><strong>Topics:</strong><ul><li>Assessing STEM and coding skills</li><li>Reflective practice and continuous learning</li><li>Resources and communities of practice</li><li>Action planning for your school/classroom</li></ul><strong>Activities:</strong><ul><li>Present final mini-projects</li><li>Create a personal 3-month action plan</li><li>Feedback circle and training wrap-up</li></ul><strong>Outcomes:</strong><ul><li>Develop an implementation plan for STEM and coding</li><li>Share and receive feedback on projects and ideas</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Gamified Learning – Circular Economy in Action",
+    "description": "Learn Circular Economy concepts through interactive games, simulations, and creative challenges that encourage teamwork and sustainability thinking.",
+    "image": "assets/img/gamified-ce.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Theme:</strong> From Linear to Circular<br><strong>Objectives:</strong><ul><li>Understand the basics of Circular Economy (CE)</li><li>Explore gamification as a learning tool</li></ul><strong>Activities:</strong><ul><li>Icebreaker game: “Linear vs Circular” – sort processes into linear or circular models</li><li>Mini-lecture: CE principles (Design Out Waste, Keep Materials in Use, Regenerate Natural Systems)</li><li>Interactive quiz (e.g., Kahoot) on CE basics</li><li>Group challenge: Visual “before & after” of a linear product lifecycle turning circular</li></ul>"
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Theme:</strong> Rethink Waste<br><strong>Objectives:</strong><ul><li>Learn about waste hierarchy and resource loops</li><li>Explore CE strategies like recycling, upcycling, and closed loops</li></ul><strong>Activities:</strong><ul><li>Simulation game: “Circular City” – redesign a city for minimal waste and maximum reuse</li><li>Case study escape room: Solve clues using circular principles</li><li>Creative challenge: Design a product using only “waste” materials</li></ul>"
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Theme:</strong> See the Big Picture<br><strong>Objectives:</strong><ul><li>Understand systems thinking in CE</li><li>Explore innovative business models (PaaS, leasing, sharing platforms)</li></ul><strong>Activities:</strong><ul><li>Gamified workshop: Circular business model canvas game</li><li>Role-play marketplace: Teams pitch circular business ideas</li><li>Simulation board game: Manage circular supply chains and compete on KPIs</li></ul>"
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Theme:</strong> CE in Action<br><strong>Objectives:</strong><ul><li>Explore real-world CE applications in industries</li><li>Identify barriers and enablers of CE</li></ul><strong>Activities:</strong><ul><li>Virtual field trip or guest speaker from CE company</li><li>Strategy game: “Fix the Supply Chain!” – redesign a company model</li><li>Workshop: Create a CE action plan for own organization/community</li></ul>"
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Theme:</strong> Be the Change<br><strong>Objectives:</strong><ul><li>Apply CE knowledge in a creative challenge</li><li>Reflect and plan next steps</li></ul><strong>Activities:</strong><ul><li>Circular Game Jam: Create a mini board/digital game to teach CE</li><li>Presentations & peer voting</li><li>Reflection circle: Personal takeaways & next steps</li><li>Feedback collection & certification</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Inclusive Education and Adaptive Learning Strategies",
+    "description": "Gain practical strategies and tools to support diverse learners and create inclusive, accessible, and collaborative classrooms.",
+    "image": "assets/img/inclusive-adaptive.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Morning Session (9:00 AM - 12:00 PM):</strong><ul><li>Welcome and Icebreaker Activities</li><li>Overview of Inclusive Education</li><li>Key principles: equity, diversity, participation</li><li>Legal and ethical considerations</li><li>Global perspectives on inclusive education</li></ul><strong>Afternoon Session (1:00 PM - 4:00 PM):</strong><ul><li>Understanding barriers to inclusion</li><li>Types: physical, cognitive, social/emotional</li><li>Group Discussion: Identifying barriers in your current teaching environment</li></ul>"
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Morning Session (9:00 AM - 12:00 PM):</strong><ul><li>Overview of Adaptive Learning</li><li>Differentiated instruction and personalized learning</li><li>Designing flexible lesson plans</li><li>Creating accessible materials</li></ul><strong>Afternoon Session (1:00 PM - 4:00 PM):</strong><ul><li>Group Activity: Design adaptive lesson plans</li><li>Case Study Review: Adaptive strategies in action</li></ul>"
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Morning Session (9:00 AM - 12:00 PM):</strong><ul><li>Introduction to Assistive Technology</li><li>Types: screen readers, speech-to-text, adaptive keyboards</li><li>Hands-on exploration and troubleshooting</li></ul><strong>Afternoon Session (1:00 PM - 4:00 PM):</strong><ul><li>Integrating Assistive Tech for various needs</li><li>Group Activity: Develop lesson using assistive technology</li></ul>"
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Morning Session (9:00 AM - 12:00 PM):</strong><ul><li>Building an Inclusive Classroom Culture</li><li>Social interaction strategies</li><li>Peer support and mentoring</li></ul><strong>Afternoon Session (1:00 PM - 4:00 PM):</strong><ul><li>Role-playing: facilitating group learning with diverse learners</li><li>Problem-solving scenarios</li><li>Reflection: How to ensure every student feels valued</li></ul>"
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Morning Session (9:00 AM - 12:00 PM):</strong><ul><li>Review: Inclusive strategies, tech tools, collaboration</li><li>Develop your implementation action plan</li></ul><strong>Afternoon Session (1:00 PM - 4:00 PM):</strong><ul><li>Action Plan Presentations & Peer Feedback</li><li>Final Q&A and Group Reflections</li><li>Closing remarks and certificate ceremony</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "5-Day Training Program: Information Technologies",
+    "description": "Build foundational IT knowledge, develop digital literacy, and explore practical skills in networks, software, cybersecurity, and emerging technologies.",
+    "image": "assets/img/information-tech.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Topics Covered:</strong><ul><li>What is Information Technology?</li><li>History & evolution of IT</li><li>Types of computer systems (desktop, laptop, mobile)</li><li>Basic hardware components: CPU, RAM, storage, peripherals</li><li>Operating systems overview (Windows, macOS, Linux)</li></ul><strong>Activities:</strong><ul><li>Computer components matching activity</li><li>Operating system navigation basics</li></ul><strong>Outcome:</strong> Learners can identify computer components and navigate an OS."
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Topics Covered:</strong><ul><li>Types of software: system vs. application</li><li>Microsoft Office / Google Workspace overview</li><li>Word processing basics</li><li>Spreadsheet fundamentals (formulas, charts)</li><li>Creating presentations</li></ul><strong>Activities:</strong><ul><li>Create a formatted document</li><li>Build a simple budget spreadsheet</li><li>Make a 3-slide presentation</li></ul><strong>Outcome:</strong> Learners can use basic productivity tools for common tasks."
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Topics Covered:</strong><ul><li>What is a network? LAN, WAN, the Internet</li><li>Network devices: routers, switches, modems</li><li>IP address, DNS, and how the web works</li><li>Email, web browsing, and cloud storage</li><li>Digital communication tools (Zoom, Teams)</li></ul><strong>Activities:</strong><ul><li>Draw a home/office network diagram</li><li>Set up and troubleshoot a basic Wi-Fi connection</li></ul><strong>Outcome:</strong> Learners understand how computers communicate and use internet tools effectively."
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Topics Covered:</strong><ul><li>Types of threats: viruses, phishing, malware</li><li>Password management and two-factor authentication</li><li>Safe browsing practices</li><li>Data backup and recovery</li><li>Introduction to firewalls and antivirus software</li></ul><strong>Activities:</strong><ul><li>Spot the phishing email game</li><li>Set up a secure password vault</li></ul><strong>Outcome:</strong> Learners can protect their data and recognize common security risks."
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Topics Covered:</strong><ul><li>IT support roles & troubleshooting basics</li><li>Cloud computing, AI, IoT, and Big Data (intro)</li><li>Trends in IT careers and certifications</li><li>Responsible use of technology & digital citizenship</li></ul><strong>Activities:</strong><ul><li>Simulate an IT helpdesk scenario</li><li>Group discussion: How tech is changing the world</li></ul><strong>Outcome:</strong> Learners are aware of real-world IT applications and career opportunities."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Innovative Digital Tools for Interactive Learning",
+    "description": "Discover and apply cutting-edge digital tools to design interactive, collaborative, and tech-enhanced learning experiences.",
+    "image": "assets/img/interactive-tools.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Theme:</strong> Setting the Stage for Innovation<br><strong>Objectives:</strong><ul><li>Understand the principles of interactive learning</li><li>Explore the current landscape of digital learning tools</li></ul><strong>Tools/Topics Introduced:</strong><ul><li>Constructivism, active learning</li><li>Digital tool categories: content creation, collaboration, assessment, gamification</li><li>Platforms: Google Workspace, Microsoft 365, Canva, Padlet</li></ul><strong>Activities:</strong><ul><li>Icebreaker: Mentimeter or Slido poll</li><li>Group discussion: What makes learning interactive?</li><li>Tool carousel exploration</li></ul><strong>Homework/Reflection:</strong> Reflective journal on current digital tool use and growth areas"
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Theme:</strong> Making Learning Visually and Intellectually Stimulating<br><strong>Objectives:</strong><ul><li>Create engaging instructional content</li><li>Use visual storytelling and multimedia tools</li></ul><strong>Tools/Topics Introduced:</strong><ul><li>Canva for Education, Prezi, Genially, Adobe Express, Book Creator</li></ul><strong>Activities:</strong><ul><li>Mini-project: Redesign a lesson using a digital tool</li><li>Peer feedback session</li></ul><strong>Homework/Reflection:</strong> Finalize one digital content item for portfolio"
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Theme:</strong> Connecting Learners and Building Communities<br><strong>Objectives:</strong><ul><li>Foster collaboration via digital platforms</li><li>Enable real-time and asynchronous communication</li></ul><strong>Tools/Topics Introduced:</strong><ul><li>Padlet, Jamboard, Miro, Google Docs, OneNote, Flip</li></ul><strong>Activities:</strong><ul><li>Scenario challenge: Design collaborative activity using 2 tools</li><li>Live demo: Brainstorming in Miro/Jamboard</li></ul><strong>Homework/Reflection:</strong> Create collaborative activity outline for your context"
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Theme:</strong> Making Learning Measurable and Fun<br><strong>Objectives:</strong><ul><li>Use tools for formative and summative assessment</li><li>Integrate gamification for engagement</li></ul><strong>Tools/Topics Introduced:</strong><ul><li>Kahoot, Quizizz, Socrative, Formative, Edpuzzle, Classcraft</li></ul><strong>Activities:</strong><ul><li>Gamified quiz battle</li><li>Create self-graded formative quiz with feedback</li></ul><strong>Homework/Reflection:</strong> Develop short digital assessment or gamified review"
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Theme:</strong> Bringing It All Together<br><strong>Objectives:</strong><ul><li>Design cohesive digitally-integrated lessons</li><li>Reflect on learning and set implementation goals</li></ul><strong>Activities:</strong><ul><li>Capstone: Design mini-lesson using 2–3 tools</li><li>Gallery walk and peer feedback</li><li>30-day action plan development</li><li>Group reflection (Flip or Padlet)</li><li>Digital certificate ceremony</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Media Literacy and Digital Citizenship Education",
+    "description": "Empower participants to think critically about media, act responsibly online, and teach or advocate for digital citizenship and literacy.",
+    "image": "assets/img/media-literacy.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Objective:</strong> Build foundational understanding of key concepts and frameworks.<br><strong>Topics:</strong><ul><li>What is Media Literacy?</li><li>Understanding Digital Citizenship</li><li>The role of media in society</li><li>Media consumption trends</li></ul><strong>Activities:</strong><ul><li>Icebreaker: “My digital day” reflection</li><li>Group discussion: How media impacts our views</li><li>Short video: Overview of media evolution</li><li>Concept map creation (collaborative)</li></ul><strong>Learning Outcome:</strong> Participants can define media literacy and digital citizenship and identify their relevance in daily life."
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Objective:</strong> Equip learners with tools to critically analyze media messages.<br><strong>Topics:</strong><ul><li>Identifying bias, stereotypes, and agendas</li><li>Spotting misinformation and fake news</li><li>Evaluating sources for credibility and reliability</li><li>Algorithms and filter bubbles</li></ul><strong>Activities:</strong><ul><li>Media comparison: reporting same event from different sources</li><li>Fact-checking exercise (Snopes, FactCheck.org)</li><li>Discussion: Personal experiences with misinformation</li></ul><strong>Learning Outcome:</strong> Participants can critically analyze media for bias, credibility, and misinformation."
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Objective:</strong> Foster awareness of digital privacy and responsible use of technology.<br><strong>Topics:</strong><ul><li>What is a digital footprint?</li><li>Online privacy & security</li><li>Cyberbullying, trolling, and online harassment</li><li>Managing online identities</li></ul><strong>Activities:</strong><ul><li>Privacy settings walkthrough</li><li>Scenarios: Responding to digital dilemmas</li><li>Digital footprint audit</li></ul><strong>Learning Outcome:</strong> Participants can explain online risks and take steps to protect their privacy and digital identity."
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Objective:</strong> Encourage ethical and respectful digital participation.<br><strong>Topics:</strong><ul><li>Digital etiquette and netiquette</li><li>Empathy in online communication</li><li>Intellectual property and digital plagiarism</li><li>Civic engagement in the digital age</li></ul><strong>Activities:</strong><ul><li>Case study: Online debates and respectful discourse</li><li>Role-play: Ethical decisions in digital spaces</li><li>Group brainstorm: What does a responsible digital citizen look like?</li></ul><strong>Learning Outcome:</strong> Participants can demonstrate ethical behavior and empathy in digital interactions."
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Objective:</strong> Help participants integrate knowledge into personal, educational, or professional settings.<br><strong>Topics:</strong><ul><li>Designing a digital citizenship lesson (for educators)</li><li>Creating awareness campaigns (for communities or youth)</li><li>Policies and resources to support media literacy</li></ul><strong>Activities:</strong><ul><li>Project presentations (lesson plan, campaign, or toolkit)</li><li>Peer feedback</li><li>Final reflection and action planning</li></ul><strong>Learning Outcome:</strong> Participants can apply their learning to real-life contexts and advocate for digital responsibility."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Soft Skills Development with Artificial Intelligence",
+    "description": "Enhance communication, emotional intelligence, collaboration, and critical thinking using AI-supported tools and personalized development strategies.",
+    "image": "assets/img/ai-soft-skills.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Objectives:</strong><ul><li>Define soft skills and their relevance</li><li>Introduce how AI can support soft skill growth</li></ul><strong>Sessions:</strong><ul><li>Ice-breaker: Soft Skills in Real Life</li><li>Key Soft Skills for the 21st Century</li><li>AI Overview: Capabilities & Trends in Human Development</li><li>Tools Demo: ChatGPT, Grammarly, Replika, Crystal</li></ul><strong>Activities:</strong><ul><li>Self-assessment survey (Google Forms or AI-based tests)</li><li>Group Discussion: “Can AI Teach Empathy?”</li></ul><strong>Outcome:</strong> Participants will articulate the value of soft skills and identify AI tools that assist with soft skill enhancement."
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Objectives:</strong><ul><li>Improve verbal and written communication using AI tools</li></ul><strong>Sessions:</strong><ul><li>Communication Basics: Clarity, Tone, and Listening</li><li>AI-Powered Writing Assistants (Grammarly, ChatGPT, Wordtune)</li><li>Practicing Active Listening & Feedback with AI bots</li></ul><strong>Activities:</strong><ul><li>Rewrite emails/messages for tone and clarity using AI</li><li>Simulated conversations with Replika or ChatGPT</li></ul><strong>Outcome:</strong> Participants will demonstrate improved communication through AI-assisted tools and receive AI-generated feedback."
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Objectives:</strong><ul><li>Understand and develop emotional intelligence using AI simulations</li></ul><strong>Sessions:</strong><ul><li>What is Emotional Intelligence? The 5 Domains</li><li>AI for Self-Awareness: Sentiment Analysis, Mood Tracking</li><li>Empathy in Action: Simulated Conversations with Virtual Characters</li></ul><strong>Activities:</strong><ul><li>Use mood tracking apps (Moodfit, Youper)</li><li>AI-driven role-play: Responding to emotional cues</li></ul><strong>Outcome:</strong> Participants will show enhanced self-awareness and empathetic response patterns through AI feedback and practice."
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Objectives:</strong><ul><li>Enhance teamwork and conflict resolution with AI-assisted tools</li></ul><strong>Sessions:</strong><ul><li>Collaboration and Conflict: Soft Skill Pillars</li><li>AI in Team Dynamics: DISC Profiles, CrystalKnows</li><li>Simulated Scenarios: Difficult Conversations & Feedback Delivery</li></ul><strong>Activities:</strong><ul><li>Group challenge using Miro or Jamboard + ChatGPT</li><li>AI-generated feedback roleplay</li></ul><strong>Outcome:</strong> Participants will apply collaborative and conflict resolution strategies in team simulations with AI support."
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Objectives:</strong><ul><li>Sharpen critical thinking and prepare a growth plan with AI</li></ul><strong>Sessions:</strong><ul><li>Critical Thinking Frameworks (6 Thinking Hats, STAR Method)</li><li>Using AI for Idea Generation and Perspective Shifting</li><li>Building a Personal AI-Enhanced Soft Skills Development Plan</li></ul><strong>Activities:</strong><ul><li>AI brainstorm: Solve a case using ChatGPT or Ideaflip</li><li>Create a development roadmap using Notion, Trello, or AI coaches</li></ul><strong>Outcome:</strong> Participants will leave with a clear, actionable plan for continued soft skills improvement using AI tools."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Sustainability in Education & Green Skills",
+    "description": "Equip educators with the knowledge and tools to integrate sustainability into curricula, promote eco-conscious practices, and foster green skills for future careers.",
+    "image": "assets/img/green-skills1.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Morning Session:</strong><ul><li>Definition, history, and principles of sustainability (environmental, economic, and social pillars)</li><li>The role of education in promoting sustainability</li><li>What are green skills? Types (technical and practical)</li><li>Relevance in modern careers</li><li>Introduction to green sectors: renewable energy, sustainable agriculture, green tech</li></ul><strong>Afternoon Session:</strong><ul><li>Integration into educational policies and strategies</li><li>UN Sustainable Development Goals and education</li><li>Case studies of successful examples</li></ul>"
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Morning Session:</strong><ul><li>Designing sustainability-focused curricula</li><li>Resources and tools for integration</li><li>Cross-disciplinary teaching methods</li></ul><strong>Afternoon Session:</strong><ul><li>Group workshop: Redesign a lesson plan with sustainability themes</li><li>Peer presentations and feedback</li></ul>"
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Morning Session:</strong><ul><li>Impact of green industries on the job market</li><li>Key green skills by sector (renewable energy, agriculture, etc.)</li></ul><strong>Afternoon Session:</strong><ul><li>Practical teaching methods and activities</li><li>Enhancing student employability through green skills</li></ul>"
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Morning Session:</strong><ul><li>Sustainable buildings and energy management</li><li>Waste and water reduction strategies</li><li>Examples of green campuses</li></ul><strong>Afternoon Session:</strong><ul><li>Action Plan Workshop: Draft institutional sustainability plans</li><li>Focus areas: energy, waste, sourcing</li></ul>"
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Morning Session:</strong><ul><li>Evaluation tools and KPIs</li><li>Case study: Measuring success in sustainability initiatives</li></ul><strong>Afternoon Session:</strong><ul><li>Strategies to build eco-conscious behaviors</li><li>Leadership and advocacy in sustainability</li><li>Final task: Design a sustainability awareness campaign</li><li>Summary of key learnings and certificate ceremony</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Visual Creativity with Artificial Intelligence - Training Program",
+    "description": "Explore AI-powered tools and methods to create, enhance, and evaluate digital art, design, and creative visuals while gaining hands-on experience through collaborative projects.",
+    "image": "assets/img/ai-visual-creativity.png",
+    "days": [
+      {
+        "day": "Day 1",
+        "content": "<strong>Session 1: AI Fundamentals and Visual Creativity</strong><ul><li>What is AI? Overview of machine learning, deep learning, and neural networks</li><li>AI’s role in creative industries: art, design, animation</li><li>Case studies: AI-generated paintings and digital designs</li></ul><strong>Session 2: Overview of AI Technologies for Visual Creation</strong><ul><li>GANs, Style Transfer, Image Synthesis</li><li>Tools: DeepArt, DALL·E, RunwayML</li></ul><strong>Hands-on Activity:</strong> Use tools like DeepArt to transform images into art using AI."
+      },
+      {
+        "day": "Day 2",
+        "content": "<strong>Session 1: GANs and Neural Networks</strong><ul><li>Deep dive into GANs and their function in visual art</li><li>Learning from existing artwork</li><li>Supervised vs. unsupervised vs. reinforcement learning</li></ul><strong>Session 2: AI in Digital Art and Design</strong><ul><li>AI for photo enhancement and digital painting</li><li>Tools: Adobe Sensei, Canva AI</li></ul><strong>Hands-on Activity:</strong> Generate images using DALL·E or GAN-based tools with custom prompts."
+      },
+      {
+        "day": "Day 3",
+        "content": "<strong>Session 1: AI Image Generation and Customization</strong><ul><li>Explore tools like DALL·E, MidJourney, Artbreeder</li><li>Customize AI-generated visuals</li></ul><strong>Session 2: Style Transfer and AI Filters</strong><ul><li>Apply artistic styles to images</li><li>Use AI filters and enhancements</li></ul><strong>Hands-on Activity:</strong> Design a project using AI-generated visuals with applied filters."
+      },
+      {
+        "day": "Day 4",
+        "content": "<strong>Session 1: AI and Motion Graphics/Video Design</strong><ul><li>AI for video effects, animation, and VFX</li><li>AI in film: from script to visual</li></ul><strong>Session 2: AI for Branding and Marketing Design</strong><ul><li>Create logos, social media graphics, and promotional visuals</li><li>Boost branding with AI-generated design</li></ul><strong>Hands-on Activity:</strong> Create an animation or marketing video using RunwayML or Synthesia."
+      },
+      {
+        "day": "Day 5",
+        "content": "<strong>Session 1: Ethical and Aesthetic Considerations</strong><ul><li>Copyright & ownership in AI art</li><li>Human creativity vs. AI generation</li><li>AI's future in visual creativity</li></ul><strong>Session 2: Collaborative AI Projects</strong><ul><li>Group creation of AI-based visuals or design challenges</li><li>Project presentation & peer critique</li></ul><strong>Hands-on Activity:</strong> Final project using AI tools to create original visual content, presented with creative reflection."
+      }
+    ]
+  }
+
+
+  
+]

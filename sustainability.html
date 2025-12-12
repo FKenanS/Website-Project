@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Tualia</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo"><img src="./assets/img/logo.png" alt="logo" width="140px"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="course.html" class="nav__link">Course</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="ict.html" class="nav__link">ICT</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="sustainability.html" class="nav__link active-link">Sustainability</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="news.html" class="nav__link">News</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="about.html" class="nav__link">About Us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="contact.html" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+       <!--==================== HOME ====================-->
+       <!--=========== SUSTAINABILITY GOALS SCROLL VIEW ===========-->
+<div class="goal-sections">
+    <section class="goal-section" id="goal-health" style="--bg: #7cb861;">
+      <div class="goal-content container">
+        <div class="goal-number">3</div>
+        <div class="heartbeat-animation">
+          <svg viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <polyline points="0,50 100,50 150,20 180,80 220,50 350,50 400,10 420,90 450,50 1000,50"
+                      fill="none" stroke="white" stroke-width="4" class="heartbeat-line" />
+          </svg>
+        </div>
+        <div class="goal-texts">
+          <h1 class="goal-title">GOOD HEALTH <br> AND WELL-BEING</h1>
+          <p class="goal-subtext">Ensure healthy lives and promote well-being for all at all ages.</p>
+          <button class="goal-more-btn">Find out more</button>
+          
+          
+          <div class="goal-more-content">We aim to reduce maternal mortality and ensure universal health coverage.</div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="goal-section" id="goal-education" style="--bg: #ce4b4d;">
+      <div class="goal-content container">
+        <div class="goal-number">4</div>
+        
+        
+        <div class="goal-texts">
+          <div class="edu-animation">
+            <i class="ri-book-open-line edu-icon"></i>
+          </div>
+          <h1 class="goal-title">QUALITY <br> EDUCATION</h1>
+          <p class="goal-subtext">Ensure inclusive and equitable quality education for all.</p>
+          <button class="goal-more-btn">Find out more</button>
+          <div class="goal-more-content">We focus on literacy, numeracy, and affordable higher education access globally.</div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="goal-section" id="goal-gender" style="--bg: #ee765d;">
+      <div class="goal-content container">
+        <div class="goal-number">5</div>
+        <div class="goal-texts">
+          <div class="gender-animation">
+            <i class="ri-men-line gender-icon"></i>
+            <i class="ri-women-line gender-icon"></i>
+          </div>
+          
+          <h1 class="goal-title">GENDER <br> EQUALITY</h1>
+          <p class="goal-subtext">Achieve gender equality and empower all women and girls.</p>
+          <button class="goal-more-btn">Find out more</button>
+          <div class="goal-more-content">We fight for equal pay, legal rights, and safety for women globally.</div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="goal-section" id="goal-energy" style="--bg: #f4d371;">
+      <div class="goal-content container">
+        <div class="goal-number">7</div>
+        <div class="goal-texts">
+          <div class="energy-animation">
+            <i class="ri-sun-line sun-icon"></i>
+          </div>
+          
+          <h1 class="goal-title">CLEAN AND <br> AFFORDABLE ENERGY</h1>
+          <p class="goal-subtext">Ensure access to affordable, reliable and modern energy for all.</p>
+          <button class="goal-more-btn">Find out more</button>
+          <div class="goal-more-content">We promote solar, wind and renewable sources for sustainable development.</div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="goal-section" id="goal-climate" style="--bg: #649c5e;">
+      <div class="goal-content container">
+        <div class="goal-number">13</div>
+        <div class="goal-texts">
+          <div class="climate-animation">
+            <svg viewBox="0 0 24 24" class="leaf">
+              <path d="M12 2C4 6 2 20 12 22c10-2 8-16 0-20z" fill="white"/>
+            </svg>
+          </div>
+          
+          <h1 class="goal-title">CLIMATE <br> ACTION</h1>
+          <p class="goal-subtext">Take urgent action to combat climate change and its impacts.</p>
+          <button class="goal-more-btn">Find out more</button>
+          <div class="goal-more-content">We support carbon reduction, sustainable policies and nature-based solutions.</div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="goal-section" id="goal-land" style="--bg: #d55d87;">
+      <div class="goal-content container">
+        <div class="goal-number">15</div>
+        <div class="goal-texts">
+          <h1 class="goal-title">LIFE <br> ON LAND</h1>
+          <p class="goal-subtext">Protect, restore and promote sustainable use of ecosystems.</p>
+          <button class="goal-more-btn">Find out more</button>
+          <div class="goal-more-content">We work on reforestation, stopping desertification and protecting biodiversity.</div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="goal-section" id="goal-partnership" style="--bg: #457ab0;">
+      <div class="goal-content container">
+        <div class="goal-number">17</div>
+        <div class="goal-texts">
+          <div class="partnership-animation">
+            <i class="ri-hand-heart-line shake-icon"></i>
+          </div>
+          
+          <h1 class="goal-title">PARTNERSHIP <br> FOR THE GOALS</h1>
+          <p class="goal-subtext">Strengthen partnerships to support sustainable development globally.</p>
+          <button class="goal-more-btn">Find out more</button>
+          <div class="goal-more-content">We build international cooperation between governments and civil society.</div>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+      
+      
+    
+            
+            
+           
+            
+
+            
+
+            
+
+                    
+
+            
+            
+            
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <a href="#" class="nav__logo"><img src="./assets/img/logo.png" alt="logo" width="100px"></a>
+                        <p class="footer__description">
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2024 KenS. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            document.querySelectorAll('.goal-more-btn').forEach(btn => {
+              btn.addEventListener('click', () => {
+                const section = btn.closest('.goal-section');
+                section.classList.toggle('active');
+              });
+            });
+          </script>
+          
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

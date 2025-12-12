@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Tualia</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo"><img src="./assets/img/logo.png" alt="logo" width="140px"></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="course.html" class="nav__link active-link">Course</a></li>
+                    <li class="nav__item"><a href="ict.html" class="nav__link">ICT</a></li>
+                    <li class="nav__item"><a href="sustainability.html" class="nav__link">Sustainability</a></li>
+                    <li class="nav__item"><a href="news.html" class="nav__link">News</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <!-- <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+                    </div>
+                
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <img src="assets/img/home3.jpg" alt="" class="home__img">
+        <div class="home__container container grid">
+            <div class="home__data-wrapper">
+                <div class="home__data">
+                    <h1 class="home__data-title"><a href="#" class="button">Courses</a></h1>
+                </div>
+            </div>
+            <div class="home__social">
+                <a href="https://www.facebook.com/" target="_blank" class="home__social-link"><i class="ri-facebook-box-fill"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="home__social-link"><i class="ri-instagram-fill"></i></a>
+                <a href="https://twitter.com/" target="_blank" class="home__social-link"><i class="ri-twitter-fill"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section container py-5">
+        <h2 class="section__title text-center mb-5">Available Courses</h2>
+        <div class="row" id="courses-container"></div>
+    </section>
+
+    <div id="modals-container"></div>
+
+<!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <a href="#" class="nav__logo"><img src="./assets/img/logo.png" alt="logo" width="100px"></a>
+                        <p class="footer__description">
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2024 KenS. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script>
+    fetch('courses_detailed.json')
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById('courses-container');
+            const modals = document.getElementById('modals-container');
+
+            data.forEach(course => {
+                container.innerHTML += `
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="${course.image}" class="card-img-top course-image" alt="${course.title}">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">${course.title}</h5>
+                            <p class="card-text flex-grow-1">${course.shortDescription || ''}</p>
+                            <button class="btn btn-primary mt-auto w-100" data-bs-toggle="modal" data-bs-target="#courseModal${course.id}">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>`;
+
+                modals.innerHTML += `
+                <div class="modal fade" id="courseModal${course.id}" tabindex="-1" aria-labelledby="courseModalLabel${course.id}" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="courseModalLabel${course.id}">${course.title}</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>${course.description}</p>
+                                <hr>
+                                <div class="accordion" id="accordion${course.id}">
+                                    ${course.days.map((day, index) => `
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading${course.id}${index}">
+                                            <button class="accordion-button ${index !== 0 ? 'collapsed' : ''}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${course.id}${index}" aria-expanded="${index === 0 ? 'true' : 'false'}" aria-controls="collapse${course.id}${index}">
+                                                ${day.day}
+                                            </button>
+                                        </h2>
+                                        <div id="collapse${course.id}${index}" class="accordion-collapse collapse ${index === 0 ? 'show' : ''}" aria-labelledby="heading${course.id}${index}" data-bs-parent="#accordion${course.id}">
+                                            <div class="accordion-body">${day.content}</div>
+                                        </div>
+                                    </div>`).join('')}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+            });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

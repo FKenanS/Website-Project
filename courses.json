@@ -1,0 +1,107 @@
+
+  [
+    {
+      "id": 1,
+      "title": "Web Development",
+      "description": "Learn HTML, CSS, JavaScript, and React to build modern web applications.",
+      "image": "assets/img/place2.png",
+      "category": "Development",
+      "price": 49.99
+    },
+    {
+      "id": 2,
+      "title": "Data Science",
+      "description": "Dive into data analysis, visualization, and machine learning with Python.",
+      "image": "assets/img/place2.png",
+      "category": "Data Science",
+      "price": 59.99
+    },
+    {
+      "id": 3,
+      "title": "Graphic Design",
+      "description": "Master design tools like Photoshop, Illustrator, and Figma to create stunning designs.",
+      "image": "assets/img/place2.png",
+      "category": "Design",
+      "price": 39.99
+    },
+    {
+        "id": 4,
+        "title": "Web Development",
+        "description": "Learn HTML, CSS, and JavaScript to build modern, responsive websites.",
+        "image": "assets/img/place2.png",
+        "category": "Programming",
+        "price": 49.99
+    },
+    {
+        "id": 5,
+        "title": "Data Science",
+        "description": "Analyze data using Python, Pandas, and machine learning techniques.",
+        "image": "assets/img/place2.png",
+        "category": "Data",
+        "price": 59.99
+    },
+    {
+        "id": 6,
+        "title": "Digital Marketing",
+        "description": "Master SEO, social media, and email marketing strategies.",
+        "image": "assets/img/place2.png",
+        "category": "Marketing",
+        "price": 29.99
+    },
+    {
+        "id": 7,
+        "title": "Cyber Security",
+        "description": "Learn ethical hacking, network security, and risk assessment.",
+        "image": "assets/img/place2.png",
+        "category": "Security",
+        "price": 69.99
+    },
+    {
+        "id": 8,
+        "title": "Mobile App Development",
+        "description": "Develop Android and iOS apps using Flutter and React Native.",
+        "image": "assets/img/place2.png",
+        "category": "Programming",
+        "price": 54.99
+    },
+    {
+        "id": 9,
+        "title": "Game Development",
+        "description": "Create 2D and 3D games using Unity and Unreal Engine.",
+        "image": "assets/img/place2.png",
+        "category": "Gaming",
+        "price": 74.99
+    },
+    {
+        "id": 10,
+        "title": "AI & Machine Learning",
+        "description": "Build AI models with TensorFlow and deep learning techniques.",
+        "image": "assets/img/place2.png",
+        "category": "AI",
+        "price": 79.99
+    },
+    {
+        "id": 11,
+        "title": "Photography",
+        "description": "Master DSLR cameras, lighting techniques, and editing skills.",
+        "image": "assets/img/place2.png",
+        "category": "Creative",
+        "price": 34.99
+    },
+    {
+        "id": 12,
+        "title": "3D Modeling & Animation",
+        "description": "Create stunning 3D models and animations using Blender.",
+        "image": "assets/img/place2.png",
+        "category": "Design",
+        "price": 44.99
+    },
+    {
+        "id": 13,
+        "title": "Stock Trading & Investing",
+        "description": "Learn stock market fundamentals, technical analysis, and trading strategies.",
+        "image": "assets/img/place2.png",
+        "category": "Finance",
+        "price": 64.99
+    }
+]

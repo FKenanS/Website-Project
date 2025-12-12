@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        
+        <!-- Head kısmına ekle -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Tualia</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo"><img src="./assets/img/logo.png" alt="logo" width="140px"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list" >
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link" style="text-decoration: none;">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="course.html" class="nav__link" style="text-decoration: none;">Course</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="ict.html" class="nav__link active-link" style="text-decoration: none;">ICT</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="sustainability.html" class="nav__link" style="text-decoration: none;">Sustainability</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="news.html" class="nav__link" style="text-decoration: none;">News</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="about.html" class="nav__link" style="text-decoration: none;">About Us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="contact.html" class="nav__link" style="text-decoration: none;">Contact</a>
+                        </li>
+                    </ul>
+                
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+       <!--==================== HOME ====================-->
+       <section class="home" id="home">
+        <img src="assets/img/prag3.jpg" alt="" class="home__img">
+    
+        <div class="home__container container grid">
+            <div class="home__data-wrapper">
+                <div class="home__data">
+                    <h1 class="home__data-title"><a href="#" class="button">ICT</a></h1>
+                </div>
+               
+            </div>
+    
+            <div class="home__social">
+                <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                    <i class="ri-facebook-box-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                    <i class="ri-twitter-fill"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--==================== ABOUT ====================-->
+<section class="about section" id="about">
+  <div class="about__container container grid">
+    <div class="about__data">
+      <h2 class="section__title about__title">Web Development<br> </h2>
+      <p class="about__description">
+        Our Web Development services are designed to provide you with modern, responsive, and user-friendly websites. Whether you are looking for a sleek corporate site, a dynamic e-commerce platform, or a custom web application, our team is here to turn your vision into reality. We prioritize functionality, security, and user experience, ensuring your online presence is impactful and reliable.
+        <br>
+        <br>
+        <a class="button" data-bs-toggle="collapse" href="#webMore" role="button" aria-expanded="false" aria-controls="webMore" style="text-decoration: none;">
+          View more...
+        </a>
+      </p>
+
+      <!-- Collapse content -->
+      <div class="collapse mt-3" id="webMore">
+        <div class="card card-body">
+          Our Web Development services offer a complete digital transformation for your business. We specialize in: <br><br>
+
+        Custom Website Design & Development: Responsive, accessible, and visually appealing websites tailored to your brand. <br><br>
+
+        E-Commerce Solutions: Scalable online stores with integrated payment gateways, inventory management, and user-friendly shopping experiences.<br><br>
+
+        Content Management Systems (CMS): Empowering your team to manage digital content effortlessly using platforms like WordPress, Joomla, or custom-built CMS.<br><br>
+
+        Web Applications: Interactive platforms designed for high performance and usability, developed with the latest frameworks such as React, Angular, or Vue.
+
+        </div>
+      </div>
+    </div>
+
+    <div class="about__img">
+      <div class="about__img-overlay">
+        <img src="assets/img/webdev1.jpg" alt="" class="about__img-one">
+      </div>
+
+      <div class="about__img-overlay">
+        <img src="assets/img/webdev2.jpg" alt="" class="about__img-two">
+      </div>
+    </div>
+  </div>
+</section>
+ 
+    
+<!--  -->
+<section class="about section" id="about">
+  <div class="about__container container grid">
+    <div class="about__img">
+        <div class="about__img-overlay">
+            <img src="assets/img/db1.webp" alt="" class="about__img-one">
+        </div>
+
+        <div class="about__img-overlay">
+            <img src="assets/img/db2.webp" alt="" class="about__img-two">
+        </div>
+    </div>
+    <div class="about__data">
+      <h2 class="section__title about__title">Database & AI integration<br> </h2>
+      <p class="about__description">
+        Data is the backbone of modern business. At Tualia, we offer comprehensive Database Management and AI Integration services. From designing and managing secure, scalable databases to integrating advanced AI tools for predictive analytics, automation, and data-driven decision-making, we empower your business to harness the power of data.
+        <br>
+        <br>
+        <a class="button" data-bs-toggle="collapse" href="#webMore1" role="button" aria-expanded="false" aria-controls="webMore1" style="text-decoration: none;">
+          View more...
+        </a>
+      </p>
+
+      <!-- Collapse content -->
+      <div class="collapse mt-3" id="webMore1">
+        <div class="card card-body">
+        We help you unlock the full potential of your data through: <br><br>
+
+        Database Design & Optimization: Secure and scalable architectures using SQL, NoSQL, or cloud-native databases. <br><br>
+
+        Data Warehousing & Migration: Centralizing data sources for powerful reporting and analytics.<br><br>
+
+        AI Integration Services: Embedding intelligent algorithms into your workflows to enable real-time analytics, recommendation engines, and decision support systems.<br><br>
+
+        Business Intelligence (BI): Dashboards and visualization tools that turn raw data into actionable insights.<br><br>
+
+        Automation Solutions: Reducing manual tasks through smart data workflows and robotic process automation (RPA).
+
+
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+
+<!--  -->
+<section class="about section" id="about">
+  <div class="about__container container grid">
+    <div class="about__data">
+      <h2 class="section__title about__title">Artificial Intelligence Solutions<br> </h2>
+      <p class="about__description">
+        Embrace the future with our cutting-edge Artificial Intelligence services. We help businesses automate processes, enhance customer experiences, and drive innovation. Our AI solutions include machine learning models, natural language processing, image recognition, and custom AI tools designed to solve your specific challenges.
+        <br>
+        <br>
+        <a class="button" data-bs-toggle="collapse" href="#webMore2" role="button" aria-expanded="false" aria-controls="webMore2" style="text-decoration: none;">
+          View more...
+        </a>
+      </p>
+
+      <!-- Collapse content -->
+      <div class="collapse mt-3" id="webMore2">
+        <div class="card card-body">
+            Our AI division provides bespoke solutions that drive innovation and efficiency: <br><br>
+
+            Machine Learning Models: Supervised, unsupervised, and reinforcement learning applications for predictive analytics. <br><br>
+
+            Natural Language Processing (NLP): Chatbots, sentiment analysis, and language models for enhanced customer interaction and data mining. <br><br>
+
+            Computer Vision: Object detection, facial recognition, and image processing technologies. <br><br>
+
+            Custom AI Tools: From fraud detection systems to personalized learning platforms, we develop AI products suited to your business needs. <br><br>
+
+            AI Ethics & Governance: Guidance on implementing responsible and explainable AI in compliance with international standards.
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="about__img">
+                <div class="about__img-overlay">
+                    <img src="assets/img/ai1.jpg" alt="" class="about__img-one">
+                </div>
+
+                <div class="about__img-overlay">
+                    <img src="assets/img/ai2.avif" alt="" class="about__img-two">
+                </div>
+    </div>
+  </div>
+</section>
+
+       
+    
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <a href="#" class="nav__logo"><img src="./assets/img/logo.png" alt="logo" width="100px"></a>
+                        <p class="footer__description">
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2024 KenS. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        <!-- Body bitmeden hemen önce ekle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
